@@ -16,6 +16,8 @@ Whether you're a student just starting to explore the world of volumetric video,
 
 ## How it works
 
+// TODO or read Graziosi Chapter IIIB
+
 ## Bitstream Format
 
 The V3C bitstream structure, is the format of the binary stream outputted by the encoder. Its spec is shown below. Feel free to skip this segment if you are not modifying encoder/decoder.
@@ -63,7 +65,7 @@ The code/standard used a lot of abbreviations which are hard to figure out at fi
 
 # Understanding MPEG-VPCC code structure
 
-Here is an explanation of the reference [MPEG-VPCC-TMC2](https://github.com/MPEGGroup/mpeg-pcc-tmc2) codebase.
+Here is an explanation of the reference [MPEG-VPCC-TMC2](https://github.com/MPEGGroup/mpeg-pcc-tmc2) codebase. To encode / decode, we usually use our [driver script](./tmc2.sh)
 
 ## Configuration
 
