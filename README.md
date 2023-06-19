@@ -85,6 +85,8 @@ The `sequence` folder contains configuration for each dataset. You probably need
 The `rate` folder contains the configuration for compression quality. 
 The lower the QP values go, the less lossy it gets (lower compression rate). Occupancy precision is used to downsample the Occupancy Data (OVD) - values of 2 or 4 is acceptable.
 
+Please refer to [MPEG V-PCC parameters](./README.parameters.pdf) for the descriptions of parameters of the encoder, decoder and metrics programs.
+
 ## Source
 
 The `source/app` folder contains the code for the binaries, which makes use of the library code in `source/lib`. 
