@@ -34,7 +34,9 @@ Whether you're a student just starting to explore the world of volumetric video,
 
 # MPEG V-PCC
 
-MPEG standardise two point cloud video compression methods: video-based point cloud compression (*V-PCC*) and geometry-based point cloud compression (*G-PCC*). Google proposed *Draco* which is a geometry-based compression technique. There are also several deep-learning based compression methods (e.g., PU-GCN+ and MPU+). The figure below shows the compression performance of different methods. In particular, by taking advantage of the successful 2D video compression techniques, V-PCC can achieve up to 100x better compression ratio compared with Draco, showing great potential for the applications of volumetric videos. The figure below is from [Yang et al.](https://ieeexplore.ieee.org/document/10050256), which shows the compression ratio of Draco, G-PCC, V-PCC, PU-GCN+, and MPU+.
+MPEG standardise two point cloud video compression methods: video-based point cloud compression (*V-PCC*) and geometry-based point cloud compression (*G-PCC*). Google proposed *Draco* which is a geometry-based compression technique. There are also several deep-learning based compression methods (e.g., PU-GCN+ and MPU+). The figure below shows the compression performance of different methods. 
+
+In particular, by taking advantage of the successful 2D video compression techniques, V-PCC can achieve up to 100x better compression ratio compared with Draco, showing great potential for the applications of volumetric videos. The figure below is from [Yang et al.](https://ieeexplore.ieee.org/document/10050256), which shows the compression ratio of Draco, G-PCC, V-PCC, PU-GCN+, and MPU+.
 
 ![compression performance](./fig/compress_ratio.png)
 
